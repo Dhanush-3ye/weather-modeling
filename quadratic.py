@@ -1,4 +1,5 @@
 # Function to read and solve quadratic equations from a file
+import math
 def solve_quadratic_from_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
